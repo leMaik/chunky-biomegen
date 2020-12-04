@@ -1,0 +1,13 @@
+{
+  "cold_ocean": "#3d57d6",
+  "deep_cold_ocean": "#3d57d6",
+  "frozen_ocean": "#3938c9",
+  "deep_frozen_ocean": "#3938c9",
+  "frozen_river": "#3938c9",
+  "lukewarm_ocean": "#45adf2",
+  "deep_lukewarm_ocean": "#45adf2",
+  "swamp": "#617b64",
+  "swamp_hills": "#617b64",
+  "warm_ocean": "#43d5ee",
+  "deep_warm_ocean": "#43d5ee"
+}
