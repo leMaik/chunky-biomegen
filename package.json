@@ -1,0 +1,25 @@
+{
+  "name": "chunky-biomegen",
+  "version": "1.0.0",
+  "description": "This repository contains scripts to generate Chunky's biomes list from a JSON file that contains all biomes (`biomes.json`) and a biome color map file (`default_biome_profile.json`, which is taken from [Amidst](https://github.com/toolbox4minecraft/amidst/blob/master/src/main/resources/amidst/mojangapi/default_biome_profile.json)).",
+  "main": "generate.js",
+  "dependencies": {
+    "camel-case": "^4.1.1",
+    "png-js": "^1.0.0",
+    "pngjs": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leMaik/chunky-biomegen.git"
+  },
+  "author": "leMaik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leMaik/chunky-biomegen/issues"
+  },
+  "homepage": "https://github.com/leMaik/chunky-biomegen#readme"
+}
