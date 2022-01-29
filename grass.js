@@ -5,7 +5,12 @@ var png = PNG.sync.read(data);
 
 module.exports = ({ rainfall, temperature, name }) => {
   if (name === "swamp" || name === "swamp_hills") {
+    // swamp grass color is hard-coded
     return "6A7039";
+  }
+  if (name.includes("badlands")) {
+    // badlands grass color is hard-coded
+    return "90814D";
   }
 
   const t = Math.min(1, Math.max(0, temperature));
