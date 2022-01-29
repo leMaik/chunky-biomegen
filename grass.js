@@ -19,6 +19,13 @@ module.exports = ({ rainfall, temperature, name }) => {
   const y = Math.floor((1 - r * t) * (png.height - 1));
   const rgba = png.data.slice((y * png.width + x) * 4);
 
+  if (name.includes("dark_forest")) {
+    // dark forest grass color is averaged with 0x28340A to produce the final color
+    rgba[0] = Math.floor((rgba[0] + 0x28) / 2)
+    rgba[0] = Math.floor((rgba[0] + 0x34) / 2)
+    rgba[0] = Math.floor((rgba[0] + 0x0A) / 2)
+  }
+
   return (
     ("0" + rgba[0].toString(16)).slice(-2) +
     ("0" + rgba[1].toString(16)).slice(-2) +
